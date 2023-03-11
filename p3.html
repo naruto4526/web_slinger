@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html style = "scroll-behavior: smooth;">
+  <head>
+    <title>
+      Movies
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
+    link href="https://fonts.googleapis.com/css2?family=Galindo&family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "projejct.css">
+    
+      
+  </head>
+  <body style = "
+  background-color : rgb(23, 23, 23); 
+  padding-top : 70px; 
+  padding-left : 20px; ">
+  <script src = "projejct.js"></script>
+    <div  style = "
+    position : fixed; 
+    top :0; 
+    right:0; 
+    left:0; 
+    height:60px; 
+    background-color: rgb(63,0,113);
+    border-radius: 20px;
+    z-index: 100;">
+
+      <div style = "
+      position:absolute; 
+      top:0px;left:20px;
+      display:inline-block">
+      <a href = "projejct.html"><span class = "title">&lt; !MOVIES &gt;</span></a>
+      </div>
+      <div style = "
+      position:absolute;
+      left :430px;
+      top :20px;
+      ">
+      <input type = "text" class = "search" placeholder="Search.." style = "
+      display: inline-block;
+      width:300px;">
+      </div>
+      <div style = "
+      position:absolute;
+      left : 780px;
+      ">
+      <button class = "head-button" onclick="anime()">Anime</button>
+      <a href = "game.html"><button class = "head-button">Games</button></a>
+      <a href = "loginpage.html"><button class = "head-button">Merch</button></a>
+      </div>
+    
+    </div>
+    <div id = "sec1"></div>
+    <div >
+      <button class = "lr" style = "
+          position:absolute;
+          left:57px;
+          top:270px;" onclick="show(-1)">&#10094;</button>
+      <button class = "lr" style = "
+      position:absolute;
+      right:23px;
+      top:270px;" onclick="show(1)">&#10095;</button>
+  </div>
+
+    <div style = "
+    position : fixed; 
+    top:250px;
+    left:0;
+    z-index: 100;">
+      <a href = "#sec1"><button class = "up">
+        <span class = "but">&#8679;</span>
+      </button> </a>
+    </div>
+
+    <div style = "position : fixed; 
+    top:313px;
+    left:0;
+    z-index: 100;">
+      <a href = "#sec2"><button class = "up">
+        <span class = "but">&#8681;</span>
+      </button></a>
+    </div>
+
+   
+    <div style = "display : grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:40px;
+    row-gap:50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    ">
+    
+      <div class = "fill a">
+      <a href = "whoops.html"><img src = "mia.jpg" style = "width:100%; height:100%; border-radius: 30px;">
+      <div class = "name">Abyss</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (4).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+        <div class = "name">Avatar</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (6).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Howl</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (11).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Spirited Away</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (8).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Blame</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (10).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Naruto</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (9).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Berserk</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (21).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Pirates</div></a>
+      </div>
+      <div class = "fill a">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (12).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Nausicaa</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (3).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Interstellar</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (1).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+          <div class = "name">Rango</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (5).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+        <div class = "name">Avatar</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (13).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+        <div class = "name">Hobbit</div></a>
+      </div>
+      <div class = "fill">
+        <a href = "whoops.html"><img src = "wallpaperflare.com_wallpaper (22).jpg" style = "width:100%; height:100%; border-radius: 30px;">
+        <div class = "name">HTTYD</div></a>
+      </div>
+    </div>
+
+    <a href = "p2.html"><button class = "next" style = "margin-left:545px;margin-top:30px;">&#10094;</button></a>
+    <a href = "projejct.html"><button class = "next" >1</button></a>
+    <a href = "p2.html"><button class = "next" >2</button></a>
+    <button class = "next" style = "background-color: rgb(63,0,113);">3</button>
+    <button class = "next">&#10095;</button>
+
+    <div id = "sec2" style = "
+    position:absolute;
+    left:0;
+    right:0;
+    height:100px;
+    background-color: rgb(21,0,80);
+    color:rgb(251,37,118);">
+    <span style = "
+    position:relative;
+    left:50px;
+    top:20px;">
+    A collection of some of my favourite movies and series.</span>    
+    </div>
+  </body>

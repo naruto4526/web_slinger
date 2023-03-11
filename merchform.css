@@ -1,0 +1,26 @@
+h1, h2,h3,h4{
+  color: white;
+}
+table {
+    border: 1px solid;
+    width:100%;
+    border-color: blueviolet;
+    ;
+    padding: 2%;
+    margin: 2%;
+  }
+  table, th, td {
+    border: 1px solid;
+    color: white;
+  }
+
+  .pr{
+    vertical-align: bottom;
+    color: rgb();
+  }
+
+
+  .i {
+    width: 225px;
+    height: 225px;
+    }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+      background-color: rgb(10, 11, 78);
+      }
+      form {
+      border: 5px solid #f1f1f1;
+      margin: 20% 30%;
+      color: white;
+      background-color: rgb(26, 13, 20);
+      }
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: silver;
+      }
+      button {
+ 
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grabbing;
+
+      background-color:rgb(111, 74, 214);
+      color:rgb(255, 255, 255);
+      padding:12px 20px;
+      font-family: galindo,Arial,sans-serif;
+      font-size:medium;
+      font-weight: bold;
+      border-radius: 15px;
+      border-style:none;
+      cursor:pointer;
+      transition:background-color 0.2;
+      }
+      h1 {
+      text-align:center;
+      font-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: left;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      align-self: center;
+      }
+      span.psw {
+      float: right;
+      padding-top: 0;
+      padding-right: 15px;
+      }
+      .but{
+        font-weight:900;
+        font-size:20px;
+      }
+      .title{
+        color:rgb(251,37,118);
+        font-family: galindo,Arial,sans-serif;
+        font-size:50px;
+        font-weight: 400;
+        cursor:pointer;
+      }
+      .up{
+        background-color:rgb(63,0,113); 
+        border-color:grey ; 
+        color: rgb(251,37,118);
+        padding:15px;
+        border-radius: 15px;
+        border-style:none;
+        cursor:pointer;
+      }
+      .head-button{
+        background-color:rgb(21,0,80);
+        color:rgb(251,37,118);
+        padding:12px 20px;
+        margin-left:40px;
+        margin-top:10px;
+        font-family: galindo,Arial,sans-serif;
+        font-size:medium;
+        font-weight: bold;
+        border-radius: 15px;
+        border-style:none;
+        cursor:pointer;
+        transition:background-color 0.2;
+      }
+      .head-button:hover{
+        background-color: rgb(63,0,113);
+      }
+    </style>
+  </head>
+  <body>
+    <div style = "
+    position : fixed; 
+    top :0; 
+    right:0; 
+    left:0; 
+    height:60px; 
+    background-color: rgb(63,0,113);
+    border-radius: 20px;">
+
+      <div style = "
+      position:absolute; 
+      top:0px;left:20px;
+      display:inline-block">
+      <a href = "projejct.html"><span class = "title">&lt; !MOVIES &gt;</span></a>
+      </div>
+      <div style = "
+      position:absolute;
+      left :430px;
+      top :22px;
+      ">
+    
+      </div>
+      <div style = "
+      position:absolute;
+      left : 780px;
+      ">
+      <button class = "head-button">Anime</button>
+      <a href="games.html"> <button class = "head-button">Games</button> </a>
+      <a href="loginpage.html"></a><button class = "head-button">Merch</button></a>
+      </div>
+    <form action="merchform.html">
+      <h1>Login </h1>
+      <div class="formcontainer">
+      <hr/>
+      <div class="container">
+        <label for="uname"><strong>Username</strong></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password" placeholder="Password" name="psw" required>
+      </div>
+      <button type="submit" style="      width: 100%;">Login</button>
+    </form>
+  </body>
+</html>

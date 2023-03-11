@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <script src="projejct.js"></script>
+        <title>Merch Store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "projejct.css">
+    </head>
+    <body style = "
+    background-color : rgb(23, 23, 23); 
+    padding-top : 70px; 
+     
+    margin-bottom: 1000px;">
+        <div style = "
+        position : fixed; 
+        top :0; 
+        right:0; 
+        left:0; 
+        height:60px; 
+        background-color: rgb(63,0,113);
+        border-radius: 20px;">
+    
+          <div style = "
+          position:absolute; 
+          top:0px;left:20px;
+          display:inline-block">
+          <a href = "projejct.html"><span class = "title">&lt; !MOVIES &gt;</span></a>
+          </div>
+          <div style = "
+          position:absolute;
+          left :430px;
+          top :22px;
+          ">
+        
+          </div>
+          <div style = "
+          position:absolute;
+          left : 780px;
+          ">
+          <button class = "head-button">Anime</button>
+          <button class = "head-button">Games</button>
+          <button class = "head-button">Merch</button>
+          </div>
+        
+        </div>
+        <div>
+        <form action="checkout.html">
+            <h2  style = "margin-left: 300px;">Select the items you would like  to purchase:</h2>
+            <table style = "background-color: rgb(21,0,80);margin-left:-5px; border-radius: 10px;" >
+                <tr>
+                    <th><img src="product1.png" class = "i" ><br>Games<br><input type="checkbox"  name="p1" value=400>₹400</th>
+                    <th><img src="Product2.png" class = "i"><br>Posters<br><input type="checkbox"  name="p1" value=1200>₹1200</th>
+                </tr>
+                <tr>
+                    <th><img src="product3.jpg" class = "i"><br>Posters<br><input type="checkbox"  name="p1" value=350>₹350</th>
+                    <th><img src="product4.jpg" class = "i"><br>Hoodies<br><input type="checkbox" name="p1" value="375">₹375</th>
+                </tr>
+                <tr>
+                    <th><img src="product5.jpg" class = "i"><br>Collectables<br><input type="checkbox" name="p1" value=700>₹700</th>
+                    <th><img src="product6.jpeg" class = "i"><br>T-Shirts<br><input type="checkbox" name="p1" value=980>₹980</th>
+                </tr>
+            </table>
+            <input type="reset" class = "up" stlye = "font-size:larger;">
+            <input type="button" class = "up" style= "margin-left:8px; " value="Calculate price" onclick="calc()">
+            <input type="submit" class = "up" style= "margin-left:8px;" value="Pay Now" >
+        </form>
+    
+        <h3 >Total Payable amount: ₹<span id ="total"></span></h3>
+        </div>    
+    </body>
+
+</html>
